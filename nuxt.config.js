@@ -2,7 +2,7 @@ export default defineNuxtConfig({
     devtools: {enabled: true},
     target: 'static',
     router: {
-        base: '/<my-github-repository-name>/'
+        base: '/cryptopay/'
     },
     static: true,
     generate: {
