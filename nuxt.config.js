@@ -1,15 +1,12 @@
 export default defineNuxtConfig({
+    app: {
+        baseURL: '/cryptopay_host/',
+        buildAssetsDir: 'assets'
+    },
+    ssr: false,
     devtools: {enabled: true},
     target: 'static',
-    router: {
-        base: '/cryptopay/'
-    },
     static: true,
-    generate: {
-        routes: [
-            '/'
-        ]
-    },
     head: {
         htmlAttrs: {
             lang: 'en'
